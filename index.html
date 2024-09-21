@@ -27,8 +27,8 @@ tw-story {
 [[Salt|Salt]]
 [[Pepper|Pepper]]</tw-passagedata><tw-passagedata pid="4" name="Cacti" tags="" position="300,600" size="100,100">Nice job! Solve this math problem: 6÷2(1+2)
 
-[[Five|Five]]
-[[One|One]]</tw-passagedata><tw-passagedata pid="5" name="Succulents" tags="" position="500,600" size="100,100">Nice job! Chocolate or vanilla?
+[[Five|Number]]
+[[One|Number]]</tw-passagedata><tw-passagedata pid="5" name="Succulents" tags="" position="500,600" size="100,100">Nice job! Chocolate or vanilla?
 
 [[Chocolate|Cacti]]
 [[Vanilla|Cacti]]</tw-passagedata><tw-passagedata pid="6" name="Salt" tags="" position="700,600" size="100,100">Good job! Pepper is SPICY! Pineapple or Kiwi?
@@ -39,16 +39,13 @@ tw-story {
 [[Cacti|Cacti]]
 [[Succulents|Succulents]]
 
-</tw-passagedata><tw-passagedata pid="8" name="One" tags="" position="400,800" size="100,100">Nice job! Are you having fun yet?
+</tw-passagedata><tw-passagedata pid="8" name="Number" tags="" position="200,800" size="100,100">Nice job! Are you having fun yet?
 
-[[Yes|Start]]
-[[No|Start]]</tw-passagedata><tw-passagedata pid="9" name="Five" tags="" position="200,800" size="100,100">Nice job! Are you having fun yet?
-
-[[Yes|Start]]
-[[No|Start]]</tw-passagedata><tw-passagedata pid="10" name="Pineapple" tags="" position="600,800" size="100,100">Nice job! Cacti or succulents?
+[[Yes|NewStart]]
+[[No|NewStart]]</tw-passagedata><tw-passagedata pid="9" name="Pineapple" tags="" position="600,800" size="100,100">Nice job! Cacti or succulents?
 
 [[Cacti|Cacti]]
-[[Succulents|Succulents]]</tw-passagedata><tw-passagedata pid="11" name="Terms and Conditions" tags="" position="800,800" size="100,100">By using the WiFi, you agree to the following terms:
+[[Succulents|Succulents]]</tw-passagedata><tw-passagedata pid="10" name="Terms and Conditions" tags="" position="800,800" size="100,100">By using the WiFi, you agree to the following terms:
 
 NOTICE: Marshall Kobylski reserves the right to change the wording of these terms and conditions at any time.
 
@@ -65,10 +62,14 @@ ARBITRATION NOTICE: The user agrees that disputes between the user and Marshall 
 Do you agree to the terms and conditions?
 
 [[I Agree|WiFi]]
-[[I Do Not Agree|Start]]</tw-passagedata><tw-passagedata pid="12" name="WiFi" tags="" position="800,1000" size="100,100">Congratulations! Here&#39;s the WiFi information!
+[[I Do Not Agree|Start]]</tw-passagedata><tw-passagedata pid="11" name="WiFi" tags="" position="800,1000" size="100,100">Congratulations! Here&#39;s the WiFi information!
 
 &lt;img src=&quot;https://i.imgur.com/VN5DcN1.jpeg&quot; alt=&quot;QR Code&quot; width=&quot;300&quot; height=&quot;300&quot;&gt;
-</tw-passagedata></tw-storydata>
+</tw-passagedata><tw-passagedata pid="12" name="NewStart" tags="" position="400,225" size="100,100">Oh no! Looks like you made at least ONE error along the way :( Try Again!
+Long walks on the beach or hikes in the forest?
+
+[[Long walks on the beach|Beach]]
+[[Hikes in the forest|Forest]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
